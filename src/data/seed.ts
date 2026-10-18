@@ -1,0 +1,62 @@
+import type { Application } from '../types'
+
+export const seedApplications: Application[] = [
+  {
+    id: 'application-takealot-frontend',
+    company: 'Takealot',
+    role: 'Frontend Intern',
+    dateSent: '2026-09-18',
+    stage: 'applied',
+    createdAt: '2026-09-18T08:30:00.000Z',
+  },
+  {
+    id: 'application-vodacom-junior',
+    company: 'Vodacom',
+    role: 'Junior Developer',
+    link: 'https://careers.vodacom.co.za/',
+    dateSent: '2026-10-02',
+    stage: 'applied',
+    notes: 'Follow up with the recruiter next week.',
+    createdAt: '2026-10-02T10:15:00.000Z',
+  },
+  {
+    id: 'application-discovery-graduate',
+    company: 'Discovery',
+    role: 'Graduate Software Engineer',
+    dateSent: '2026-10-06',
+    stage: 'applied',
+    createdAt: '2026-10-06T09:00:00.000Z',
+  },
+  {
+    id: 'application-naspers-product',
+    company: 'Naspers',
+    role: 'Product Design Intern',
+    dateSent: '2026-10-08',
+    stage: 'wishlist',
+    createdAt: '2026-10-08T14:20:00.000Z',
+  },
+  {
+    id: 'application-capitec-data',
+    company: 'Capitec',
+    role: 'Junior Data Analyst',
+    dateSent: '2026-10-10',
+    stage: 'offer',
+    createdAt: '2026-10-10T11:45:00.000Z',
+  },
+  {
+    id: 'application-yoco-support',
+    company: 'Yoco',
+    role: 'Technical Support Associate',
+    dateSent: '2026-10-11',
+    stage: 'closed',
+    createdAt: '2026-10-11T13:10:00.000Z',
+  },
+  {
+    id: 'application-aurora-backend',
+    company: 'Aurora',
+    role: 'Backend Developer',
+    dateSent: '2026-10-12',
+    stage: 'wishlist',
+    createdAt: '2026-10-12T15:30:00.000Z',
+  },
+]
